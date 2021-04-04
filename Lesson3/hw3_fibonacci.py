@@ -11,7 +11,8 @@ def fibonacci(n):
 
 
 def main():
-    fibonacci(8)
+    number = int(input('input number fibonacci: '))
+    fibonacci(number)
 
 
 if __name__ == '__main__':
